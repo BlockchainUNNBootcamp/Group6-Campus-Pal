@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Pal - Matching Folder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">Campus Pal</div>
+      <div>
+        <span id="user-greeting"></span>
+        <button onclick="logout()" class="btn secondary">Log Out</button>
+      </div>
+    </div>
+  </nav>
+  <section class="matching">
+    <div class="container">
+      <h1>Matching Folder</h1>
+      <form id="profile-form" onsubmit="updateProfile(event)">
+        <input type="text" id="profile-interests" placeholder="Your Interests (e.g., coding, music)" required>
+        <button type="submit" class="btn primary">Update Profile</button>
+      </form>
+      <h2>Matches</h2>
+      <div id="matches"></div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
