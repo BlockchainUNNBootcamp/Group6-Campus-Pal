@@ -12,6 +12,9 @@ Welcome to **Campus Pal**, a vibrant web app designed for Nigerian students to c
 - **Responsive Design**: Works beautifully on your Chromebook, phone, or desktop.
 - **Premium UI/UX**: Glassy cards, glowing buttons, and smooth animations make it fun to use!
 
+## Project Live Url
+https://blockchainunnbootcamp.github.io/Group6-Campus-Pal/
+
 ## Getting Started
 
 Follow these steps to run Campus Pal locally:
